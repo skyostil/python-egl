@@ -2,7 +2,7 @@ from distutils.core import setup, Extension
 
 module1 = Extension('egl',
             sources = ['eglmodule.c'],
-            libraries = ['vincent','X11']
+            libraries = ['libgles_cm','X11']
             )
 
 setup (name = 'egl',
